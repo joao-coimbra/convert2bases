@@ -1,7 +1,31 @@
 footer {
     position: fixed;
-    right: 0;
-    bottom: 0;
+    right: -60px;
+    bottom: 130px;
 
     color: white;
+
+    transform: rotate(90deg);
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    div {
+        content: '';
+
+        width: 50px;
+        height: 2px;
+        border-radius: 50px;
+        background-color: white;
+    }
+
+    a {
+        display: flex;
+        svg {
+            color: white;
+            font-size: 24px;
+            transform: rotate(-90deg);
+        }
+    }
 }
