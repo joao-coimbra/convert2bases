@@ -90,6 +90,14 @@ section#convert {
         }
     }
 
+    object {
+        position: absolute;
+        max-width: 40vw;
+        right: 10vw;
+        bottom: 50%;
+        transform: translateY(50%);
+    }
+
     @media screen and (max-width: 720px) {
         align-items: center;
 
@@ -107,7 +115,7 @@ section#convert {
         // border: 1px solid rgba(255, 255, 255, 0.3);
 
         >.content,
-        svg {
+        svg, object {
             display: none;
         }
     }

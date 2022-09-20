@@ -234,16 +234,8 @@ function Conversion() {
                 </label>
             </div>
 
-            <div className="content">
-                {/* {result.map((res, index) => <div key={index}>
-                    <h2>{res.title}</h2>
-                    <p>{res.content.map((cont => (
-                        <>
-                            {cont}
-                        </>
-                    )))}</p>
-                </div>)} */}
-            </div>
+            <object type="image/svg+xml" data="./background.svg"></object>
+            {/* <img src="./background.svg" alt="code" /> */}
 
         </section>
     )
