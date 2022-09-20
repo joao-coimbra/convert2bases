@@ -1,6 +1,6 @@
 import './styles.scss'
 
-import { AiFillGithub, AiOutlineStar } from 'react-icons/ai'
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 function Footer() {
     return(
@@ -8,10 +8,10 @@ function Footer() {
             follow me
             <div></div>
             <a href="https://github.com/joao-coimbra/convert2bases">
-                <AiFillGithub/>
+                <AiFillGithub />
             </a>
-            <a href="https://github.com/joao-coimbra">
-                <AiOutlineStar/>
+            <a href="https://www.linkedin.com/in/joao-henrique-benatti-coimbra">
+                <AiFillLinkedin />
             </a>
         </footer>
     )

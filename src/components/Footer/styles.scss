@@ -11,13 +11,15 @@ footer {
     align-items: center;
     gap: 15px;
 
-    div {
-        content: '';
+    text-shadow: 2px 2px #ffffff60;
 
+    div {
         width: 50px;
         height: 2px;
         border-radius: 50px;
         background-color: white;
+        box-shadow: 2px 2px #ffffff60;
+
     }
 
     a {
@@ -26,6 +28,15 @@ footer {
             color: white;
             font-size: 24px;
             transform: rotate(-90deg);
+            filter: drop-shadow(-2px 2px #ffffff60);
+
+            transition: all 200ms;
+
+            &:hover {
+                transform: rotate(-90deg) translate(-1px, 1px);
+                filter: drop-shadow(-1px 1px #ffffff60);
+                
+            }
         }
     }
 }
