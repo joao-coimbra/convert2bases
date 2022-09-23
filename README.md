@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Convert2bases
+## Conversão de números entre bases
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![License](https://img.shields.io/badge/license-MIT-green) ![Data da última versão](https://img.shields.io/badge/release%20date-september-yellowgreen)
 
-## Available Scripts
+Converta números entre diferentes bases rapidamente.
 
-In the project directory, you can run:
+> Conversão de base numérica é a passagem da representação de um número de uma base numérica para outra, alterando a simbologia para se adequar à nova base.
 
-### `npm start`
+* Uma famosa conversão é da binária <sub>(2)</sub> para base decimal <sub>(10)</sub> :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+><span style='color: orange'>110<sub>2</sub></span> = 1x2<sup>2</sup> + 1x2<sup>1</sup> + 0x2<sup>0</sup> = 4 + 2 + 0 = <span style='color: orange'>6<sub>10</sub></span>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Índice
 
-### `npm test`
+* [Objetivo](#dart-objetivo)
+* [Funcionalidades](#hammer-funcionalidades)
+* [Técnicas e Tecnologias](#zap-técnicas-e-tecnologias)
+* [Acesso ao projeto](#open_file_folder-acesso-ao-projeto)
+* [Abrir e rodar o projeto](#hammer_and_wrench-abrir-e-rodar-o-projeto)
+* [License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :dart: Objetivo
 
-### `npm run build`
+- Implementar a conversão entre bases numéricas de uma forma visual e otimizada.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :hammer: Funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O programa realiza a conversão entre as bases:
+* Binária (2)
+* Octal (8)
+* Decimal (10)
+* Hexadecimal (16)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :zap: Técnicas e Tecnologias
 
-### `npm run eject`
+As técnicas e tecnologias utilizadas são:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Reactjs](https://reactjs.org/): Uma biblioteca JavaScript para criar interfaces de usuário.
+- [Sass](https://sass-lang.com/): Sass é a linguagem de extensão CSS de nível profissional mais madura, estável e poderosa  do mundo.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :open_file_folder: Acesso ao projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Você pode acessar o projeto:
+- clonando o repositório pelo link [algoritmos-substituicao-paginas](https://github.com/joao-coimbra/convert2bases.git):
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+git clone https://github.com/joao-coimbra/convert2bases.git
+```
 
-## Learn More
+- Fazendo o download do projeto [clicando aqui](https://github.com/joao-coimbra/convert2bases/archive/refs/heads/master.zip).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :hammer_and_wrench: Abrir e rodar o projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Após realizar o download do projeto, instale suas dependências
 
-### Code Splitting
+```sh
+cd convert2bases
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Agora é só rodar !
 
-### Analyzing the Bundle Size
+```sh
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Será aberto em seu navegador padrão o link [http://localhost:3000](http://localhost:3000) e então é só aproveitar.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
