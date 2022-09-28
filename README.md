@@ -7,7 +7,7 @@ Converta números entre diferentes bases rapidamente.
 
 > Conversão de base numérica é a passagem da representação de um número de uma base numérica para outra, alterando a simbologia para se adequar à nova base.
 
-* Uma famosa conversão é da binária <sub>(2)</sub> para base decimal <sub>(10)</sub> :
+* Uma famosa conversão é da base binária <sub>(2)</sub> para base decimal <sub>(10)</sub> :
 
 ><span style='color: orange'>110<sub>2</sub></span> = 1x2<sup>2</sup> + 1x2<sup>1</sup> + 0x2<sup>0</sup> = 4 + 2 + 0 = <span style='color: orange'>6<sub>10</sub></span>
 
